@@ -35,7 +35,7 @@ footer a {
 }
 
 .qr-section {
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .text-section {
@@ -49,6 +49,6 @@ footer a {
   color: #fff;
   border: none;
   resize: none;
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding: 1rem;
 }
