@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top-bar {
+  width: 90%;
+  text-align: right;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 1.9rem;
+}
+
+#editor {
+  width: 90%;
+  height: 70%;
+  background: #111;
+  color: #fff;
+  border: none;
+  resize: none;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-top: 10px;
+}
+
+#copy-container {
+  margin-top: 10px;
+  position: relative;
+}
+
+#copy-icon {
+  cursor: pointer;
+  color: #ccc;
+  font-size: 60px;
+}
+
+#copy-popup {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  display: none;
+}
